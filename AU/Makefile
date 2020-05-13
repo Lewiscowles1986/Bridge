@@ -32,10 +32,10 @@ SOURCES += $(AU_SDK)/PublicUtility/CAHostTimeBase.cpp
 SOURCES += $(AU_SDK)/PublicUtility/CAAudioChannelLayout.cpp
 SOURCES += $(AU_SDK)/PublicUtility/CAStreamBasicDescription.cpp
 SOURCES += $(AU_SDK)/PublicUtility/CAVectorUnit.cpp
-SOURCES += $(AU_SDK)/PublicUtility/CAAUMIDIMap.cpp
-SOURCES += $(AU_SDK)/PublicUtility/CAAUMIDIMapManager.cpp
-SOURCES += $(AU_SDK)/AudioUnits/AUPublic/Utility/AUBaseHelper.cpp
-SOURCES += $(AU_SDK)/PublicUtility/CABufferList.cpp
+# SOURCES += $(AU_SDK)/PublicUtility/CAAUMIDIMap.cpp
+# SOURCES += $(AU_SDK)/PublicUtility/CAAUMIDIMapManager.cpp
+# SOURCES += $(AU_SDK)/AudioUnits/AUPublic/Utility/AUBaseHelper.cpp
+# SOURCES += $(AU_SDK)/PublicUtility/CABufferList.cpp
 SOURCES += $(AU_SDK)/AudioUnits/AUPublic/AUBase/AUPlugInDispatch.cpp
 SOURCES += $(AU_SDK)/AudioUnits/AUPublic/AUBase/AUDispatch.cpp
 
