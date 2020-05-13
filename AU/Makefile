@@ -10,8 +10,8 @@ endif
 AU_SDK ?= CoreAudio
 
 FLAGS += -fPIC
-FLAGS += -arch i386 -arch x86_64
-LDFLAGS += -arch i386 -arch x86_64
+FLAGS += -arch x86_64
+LDFLAGS += -arch x86_64
 
 FLAGS += -I$(RACK_DIR)/include
 FLAGS += -I$(AU_SDK)/AudioUnits/AUPublic/AUBase -I$(AU_SDK)/AudioUnits/AUPublic/AUInstrumentBase -I$(AU_SDK)/AudioUnits/AUPublic/OtherBases -I$(AU_SDK)/AudioUnits/AUPublic/Utility -I$(AU_SDK)/PublicUtility
