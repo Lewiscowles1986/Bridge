@@ -15,8 +15,8 @@ FLAGS += -fPIC
 FLAGS += -I$(VST2_SDK) -I$(RACK_DIR)/include
 
 ifdef ARCH_MAC
-	FLAGS += -arch i386 -arch x86_64
-	LDFLAGS += -arch i386 -arch x86_64
+	FLAGS += -arch x86_64
+	LDFLAGS += -arch x86_64
 	LDFLAGS += -bundle
 	BUNDLE := $(TARGET).vst
 endif
